@@ -46,7 +46,7 @@ An American English wordlist can be installed via the `wamerican` package:
 
 
 
-###Example
+### Example
 ```
 [user@exmapleserver]# ssh 192.168.1.100
 --- Welcome to PAM-Wordle! ---
