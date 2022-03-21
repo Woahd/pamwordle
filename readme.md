@@ -43,3 +43,36 @@ If the dictionary is not present pam-wordle will complain via error messages and
 An American English wordlist can be installed via the `wamerican` package:
 
 `apt install wamerican -y`
+
+
+
+###Example
+```
+[user@exmapleserver]# ssh 192.168.1.100
+--- Welcome to PAM-Wordle! ---
+
+A five character [a-z] word has been selected.
+You have 6 attempts to guess the word.
+
+After each guess you will recieve a hint which indicates:
+? - what letters are wrong.
+* - what letters are in the wrong spot.
+[a-z] - what letters are correct.
+
+--- Attempt 1 of 6 ---
+Word: crane
+Hint->????*
+--- Attempt 2 of 6 ---
+Word: boats
+Hint->???**
+--- Attempt 3 of 6 ---
+Word: steam
+Hint->s**??
+--- Attempt 4 of 6 ---
+Word: swept
+Hint->s?***
+--- Attempt 5 of 6 ---
+Word: setup
+Correct!
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 5.4.0-1068-aws x86_64)
+```
