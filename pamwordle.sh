@@ -1,5 +1,5 @@
 #! /bin/bash
-#test
+
 # Name: Sudo Wordle
 # Notes: 
 # - Installs Wordle PAM module
